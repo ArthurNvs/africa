@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E76AB98C273E5C80008568EF /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76AB98B273E5C80008568EF /* InsetFactView.swift */; };
+		E76AB98E273E6061008568EF /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76AB98D273E6061008568EF /* InsetMapView.swift */; };
 		E77686F6273D163D003850F8 /* AnimalListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77686F5273D163D003850F8 /* AnimalListItemView.swift */; };
 		E77686F8273D1903003850F8 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77686F7273D1903003850F8 /* AnimalModel.swift */; };
 		E77686FA273D2074003850F8 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77686F9273D2074003850F8 /* AnimalDetailView.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		E76AB98B273E5C80008568EF /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
+		E76AB98D273E6061008568EF /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		E77686F5273D163D003850F8 /* AnimalListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListItemView.swift; sourceTree = "<group>"; };
 		E77686F7273D1903003850F8 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 		E77686F9273D2074003850F8 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				E77686FB273D28B0003850F8 /* HeadingView.swift */,
 				E77686FD273D2A14003850F8 /* InsetGalleryView.swift */,
 				E76AB98B273E5C80008568EF /* InsetFactView.swift */,
+				E76AB98D273E6061008568EF /* InsetMapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				E77686FA273D2074003850F8 /* AnimalDetailView.swift in Sources */,
 				E77686F8273D1903003850F8 /* AnimalModel.swift in Sources */,
 				E7811E67273BC17F00ED4F6A /* MapView.swift in Sources */,
+				E76AB98E273E6061008568EF /* InsetMapView.swift in Sources */,
 				E7811E37273BBE6000ED4F6A /* AfricaApp.swift in Sources */,
 				E7811E65273BC16A00ED4F6A /* VideoListView.swift in Sources */,
 				E7811E69273BC19400ED4F6A /* GalleryView.swift in Sources */,
