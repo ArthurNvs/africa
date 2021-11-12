@@ -8,13 +8,33 @@
 import SwiftUI
 
 struct VideoListView: View {
-    var body: some View {
-        Text("Videos")
-    }
+  @State var videos: [Video] = Bundle.main.decode("videos.json")
+  
+  var body: some View {
+    NavigationView {
+      List {
+        ForEach(videos) { item in
+          VideoListItemView(video: item)
+            .padding(.vertical, 8)
+        }
+      }//: List
+      .listStyle(InsetGroupedListStyle())
+      .navigationBarTitle("Videos", displayMode: .inline)
+      .toolbar {
+        ToolbarItem(placement: .navigationBarTrailing) {
+          Button(action: {
+            videos.shuffle()
+          }) {
+            Image(systemName: "arrow.2.squarepath")
+          }
+        }
+      }
+    }//: Navigation
+  }
 }
 
 struct VideoListView_Previews: PreviewProvider {
-    static var previews: some View {
-        VideoListView()
-    }
+  static var previews: some View {
+    VideoListView()
+  }
 }
