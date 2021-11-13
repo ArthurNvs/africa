@@ -45,6 +45,7 @@
 		E7811E71273BCA1D00ED4F6A /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7811E70273BCA1C00ED4F6A /* CoverImageModel.swift */; };
 		E7811E74273BCB4B00ED4F6A /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7811E73273BCB4B00ED4F6A /* CodableBundleExtension.swift */; };
 		E7D15209273FBE33001CCE06 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D15208273FBE33001CCE06 /* LocationModel.swift */; };
+		E7D1520B273FC407001CCE06 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D1520A273FC407001CCE06 /* MapAnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +89,7 @@
 		E7811E70273BCA1C00ED4F6A /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		E7811E73273BCB4B00ED4F6A /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
 		E7D15208273FBE33001CCE06 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		E7D1520A273FC407001CCE06 /* MapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 				E76AB98F273E6495008568EF /* ExternalWeblinkView.swift */,
 				E76AB993273E6904008568EF /* VideoListItemView.swift */,
 				E76AB995273E742F008568EF /* VideoPlayerView.swift */,
+				E7D1520A273FC407001CCE06 /* MapAnnotationView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				E76AB999273E751A008568EF /* VideoPlayerHelper.swift in Sources */,
 				E76AB98E273E6061008568EF /* InsetMapView.swift in Sources */,
 				E7811E37273BBE6000ED4F6A /* AfricaApp.swift in Sources */,
+				E7D1520B273FC407001CCE06 /* MapAnnotationView.swift in Sources */,
 				E7811E65273BC16A00ED4F6A /* VideoListView.swift in Sources */,
 				E76AB992273E68B5008568EF /* VideoModel.swift in Sources */,
 				E7811E69273BC19400ED4F6A /* GalleryView.swift in Sources */,
