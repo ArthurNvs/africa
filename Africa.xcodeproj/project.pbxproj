@@ -44,6 +44,7 @@
 		E7811E6E273BC58400ED4F6A /* CoverImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7811E6D273BC58400ED4F6A /* CoverImageView.swift */; };
 		E7811E71273BCA1D00ED4F6A /* CoverImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7811E70273BCA1C00ED4F6A /* CoverImageModel.swift */; };
 		E7811E74273BCB4B00ED4F6A /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7811E73273BCB4B00ED4F6A /* CodableBundleExtension.swift */; };
+		E7D15209273FBE33001CCE06 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D15208273FBE33001CCE06 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +87,7 @@
 		E7811E6D273BC58400ED4F6A /* CoverImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageView.swift; sourceTree = "<group>"; };
 		E7811E70273BCA1C00ED4F6A /* CoverImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverImageModel.swift; sourceTree = "<group>"; };
 		E7811E73273BCB4B00ED4F6A /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		E7D15208273FBE33001CCE06 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,6 +214,7 @@
 				E7811E70273BCA1C00ED4F6A /* CoverImageModel.swift */,
 				E77686F7273D1903003850F8 /* AnimalModel.swift */,
 				E76AB991273E68B5008568EF /* VideoModel.swift */,
+				E7D15208273FBE33001CCE06 /* LocationModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				E7811E65273BC16A00ED4F6A /* VideoListView.swift in Sources */,
 				E76AB992273E68B5008568EF /* VideoModel.swift in Sources */,
 				E7811E69273BC19400ED4F6A /* GalleryView.swift in Sources */,
+				E7D15209273FBE33001CCE06 /* LocationModel.swift in Sources */,
 				E77686FE273D2A14003850F8 /* InsetGalleryView.swift in Sources */,
 				E76AB994273E6904008568EF /* VideoListItemView.swift in Sources */,
 				E7811E74273BCB4B00ED4F6A /* CodableBundleExtension.swift in Sources */,
