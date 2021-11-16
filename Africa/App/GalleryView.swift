@@ -44,6 +44,7 @@ struct GalleryView: View {
           .padding(.horizontal)
           .onChange(of: gridColumn, perform: { value in
             gridSwitch()
+            haptics.impactOccurred()
           })
         
         LazyVGrid(columns: gridLayout, alignment: .center, spacing: 10) {
@@ -59,7 +60,7 @@ struct GalleryView: View {
               }
           } //: ForEach
         } //: LazyVGrid
-        .animation(.easeIn)
+        .animation(.easeIn(duration: 0.5))
         .onAppear(perform: {
           gridSwitch()
         })
