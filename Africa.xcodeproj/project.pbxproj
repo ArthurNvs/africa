@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E732174327445E3C00D2A809 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E732174227445E3C00D2A809 /* AnimalGridItemView.swift */; };
 		E76AB98C273E5C80008568EF /* InsetFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76AB98B273E5C80008568EF /* InsetFactView.swift */; };
 		E76AB98E273E6061008568EF /* InsetMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76AB98D273E6061008568EF /* InsetMapView.swift */; };
 		E76AB990273E6495008568EF /* ExternalWeblinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E76AB98F273E6495008568EF /* ExternalWeblinkView.swift */; };
@@ -50,6 +51,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E732174227445E3C00D2A809 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		E76AB98B273E5C80008568EF /* InsetFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetFactView.swift; sourceTree = "<group>"; };
 		E76AB98D273E6061008568EF /* InsetMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetMapView.swift; sourceTree = "<group>"; };
 		E76AB98F273E6495008568EF /* ExternalWeblinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalWeblinkView.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				E76AB995273E742F008568EF /* VideoPlayerView.swift */,
 				E7D1520A273FC407001CCE06 /* MapAnnotationView.swift */,
 				E7D1520C273FFFA6001CCE06 /* MotionAnimationView.swift */,
+				E732174227445E3C00D2A809 /* AnimalGridItemView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				E76AB992273E68B5008568EF /* VideoModel.swift in Sources */,
 				E7811E69273BC19400ED4F6A /* GalleryView.swift in Sources */,
 				E7D15209273FBE33001CCE06 /* LocationModel.swift in Sources */,
+				E732174327445E3C00D2A809 /* AnimalGridItemView.swift in Sources */,
 				E77686FE273D2A14003850F8 /* InsetGalleryView.swift in Sources */,
 				E76AB994273E6904008568EF /* VideoListItemView.swift in Sources */,
 				E7811E74273BCB4B00ED4F6A /* CodableBundleExtension.swift in Sources */,
