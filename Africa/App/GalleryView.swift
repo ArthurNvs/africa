@@ -27,8 +27,11 @@ struct GalleryView: View {
   @State private var gridLayout: [GridItem] = [GridItem(.flexible())]
   @State private var gridColumn: Double = 3.0
   
+  @State private var number: Int = 1
+  
   func gridSwitch() {
     gridLayout = Array(repeating: .init(.flexible()), count: Int(gridColumn))
+    number = gridLayout.count
   }
   
   var body: some View {
@@ -60,7 +63,7 @@ struct GalleryView: View {
               }
           } //: ForEach
         } //: LazyVGrid
-        .animation(.easeIn(duration: 0.5))
+        .animation(.easeIn(duration: 0.5), value: number)
         .onAppear(perform: {
           gridSwitch()
         })

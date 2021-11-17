@@ -61,7 +61,7 @@ struct ContentView: View {
               } //: ForEach
             } //: LazyVGrid
             .padding(10)
-            .animation(.easeIn)
+            .animation(.easeIn, value: gridColumn)
           } //: ScrollView
         } //: List
       } //: Group
