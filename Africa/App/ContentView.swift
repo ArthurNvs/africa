@@ -50,7 +50,10 @@ struct ContentView: View {
               }
               .listRowBackground(Color.black)
             } //: ForEach
-          }
+            CreditsView()
+              .modifier(CenterModifier())
+              .listRowBackground(Color.black)
+          } //: List
         } else {
           ScrollView(.vertical, showsIndicators: false) {
             LazyVGrid(columns: gridLayout, alignment: .center, spacing: 10) {
